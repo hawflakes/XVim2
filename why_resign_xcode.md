@@ -1,4 +1,4 @@
-# FAQ - Why do I need to resign Xcode to use XVim2 🤔?
+# FAQ - Why do I need to re-sign Xcode to use XVim2 🤔?
 
 ## TL;DR
 
@@ -46,7 +46,7 @@ If you're interested, you can [read exactly how the XcodeGhost attack vector wor
 
 Apple realised that part of the attack vector for XcodeGhost was that it exploited the unsigned plugin system that thousands of other enormously useful tools relied upon. So Apple prohibited code injection via plugins in Xcode 8 and provided Source Editor Extensions as an alternative method for plugin creators. This is definitely a move in the right direction with regards to improving security for end users but the downside is the replacement tools (extensions) are not yet capable of replicating many existing plugin features. 
 
-## So why do I need to resign my Xcode version to use XVim2?
+## So why do I need to re-sign my Xcode version to use XVim2?
 
 Simply put, when you download Xcode officially from Apple the Xcode app is signed with a signature. If you try to load a plugin using a signed version of Xcode 8 or newer it will not work. 
 
